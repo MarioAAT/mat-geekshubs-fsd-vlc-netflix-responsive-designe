@@ -76,8 +76,8 @@ img{
     transition: transform .5s;
 }
 
-.box1:hover{
-    transform: scale(1.0);
+img:hover{
+    transform: scale(1.2);
 }
 
 .peliculas{
