@@ -1,0 +1,88 @@
+body{
+    background-color: aqua;
+    margin: 0;
+}
+
+.container{
+    background-color: black;
+    height: 100%;
+    gap: 1px;
+}
+
+span{
+    color: aliceblue;
+}
+
+div{
+    border: solid 1px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 7vh;
+    border: solid 1px white;
+    border-radius: 3px;
+}
+
+.menu-linea{
+    width: 10vw;
+    height: 2px;
+    background-color: white;
+    margin: 2px;
+}
+
+.img-netflix{
+    width: 50%;
+    height: 100%;
+    border: none;
+}
+.img-usuario{
+    height: 5vh;
+    width: 10vw;
+    border: none;
+}
+
+/* Estilos del body */
+
+.series{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 25vh;
+    width: 90vw;
+    border-radius: 5px;
+    border: outset 1px;
+}
+
+.peliculas{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Estilos del footer */
+
+.footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
