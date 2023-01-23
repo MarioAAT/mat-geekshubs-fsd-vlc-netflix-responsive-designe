@@ -1,21 +1,7 @@
-body{
-    background-color: aqua;
-    margin: 0;
-}
-
 .container{
     background-color: black;
-    height: 100%;
-    width: 100%;
-}
-
-span{
-    color: aliceblue;
-    font-size: large;
-}
-
-div{
-    border: solid 1px;
+    height: 100vh;
+    width: 100vw;
 }
 
 .head{
@@ -26,39 +12,44 @@ div{
 }
 
 .menu{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 12vw;
-    height: 7vh;
+    width: 5vw;
+    height: 5vh;
     border: solid 1px white;
     border-radius: 3px;
+    margin-right: 1vw;
 }
 
 .menu-linea{
-    width: 10vw;
+    width: 3vw;
     height: 2px;
     background-color: white;
     margin: 2px;
 }
 
 .img-netflix{
-    width: 50%;
-    height: 100%;
+    width: 30%;
+    height: 80%;
     border: none;
+    order: 3;
 }
 .img-usuario{
-    height: 5vh;
-    width: 10vw;
+    position: relative;
+    height: 3vh;
+    width: 5vw;
     border: none;
+    margin-right: 60vw;
 }
 
 /* Estilos del body */
 
 .cont{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .box{
@@ -69,26 +60,13 @@ div{
 }
 
 img{
-    height: 25vh;
-    width: 90vw;
+    height: 20vh;
+    width: 20vw;
     border-radius: 5px;
     border: outset 1px;
-    transition: transform .5s;
-}
-
-.box1:hover{
-    transform: scale(1.0);
 }
 
 .peliculas{
     display: flex;
     justify-content: flex-start;
-}
-
-/* Estilos del footer */
-
-.footer{
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
 }
